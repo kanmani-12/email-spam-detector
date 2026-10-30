@@ -1,0 +1,105 @@
+.app h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #6e6e73;
+  margin-bottom: 1.5rem;
+}
+
+/* Cards */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Form */
+.email-form label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.email-form input,
+.email-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background: #fff;
+}
+
+.email-form input:focus,
+.email-form textarea:focus {
+  outline: 2px solid var(--accent);
+  border-color: transparent;
+}
+
+.email-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.email-form button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.65rem 1.25rem;
+  font-weight: 600;
+}
+
+.email-form button:hover {
+  opacity: 0.9;
+}
+
+/* Results */
+.label {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.label.safe {
+  background: var(--safe);
+}
+
+.label.suspicious {
+  background: var(--warn);
+}
+
+.label.spam {
+  background: var(--danger);
+}
+
+.results h3 {
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.results ul {
+  padding-left: 1.25rem;
+}
+
+.results li {
+  margin-bottom: 0.25rem;
+}
+
+.alert {
+  color: var(--danger);
+  font-weight: 500;
+}
+
+.empty {
+  color: #6e6e73;
+  font-style: italic;
+}
